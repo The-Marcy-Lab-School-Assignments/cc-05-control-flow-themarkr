@@ -1,6 +1,6 @@
 //1
 function absoluteValue(num){
-  if(isNaN(num) === false){
+  if(typeof num === "number"){
       if(num > 0){
           return num;
       }else{
@@ -11,7 +11,7 @@ function absoluteValue(num){
   }
 }
 
-console.log(absoluteValue(-3));
+console.log(absoluteValue('20'));
 
 //bonus
 function multiplesOfFourAndSix() {
